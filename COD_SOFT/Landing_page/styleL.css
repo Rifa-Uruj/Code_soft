@@ -1,0 +1,156 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Dark gray for text */
+    background: #F5F5F5; /* Neutral light background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background: #333; /* Dark gray for header */
+    color: #fff; /* White text for contrast */
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #e70e5d; /* Hot Pink on hover */
+}
+
+/* Hero Section Styling */
+.hero {
+    background: #333; /* Hot Pink for a vibrant hero section */
+    color: #fff; /* White text for high contrast */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .cta-button {
+    background: #fff; /* White background for the button */
+    color: #333; /* Hot Pink text */
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background: #e70e5d;
+    color: #333; /* White text on hover */
+}
+
+/* Features Section Styling */
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    color:	#008080;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 15px;
+    background: #fff; /* White background for features */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #333; /* Dark gray for headings */
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    color: #333; /* Dark gray text */
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    background: #fff; /* White background for testimonials */
+    color: #333; /* Dark gray text */
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.testimonials blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.testimonials p {
+    color: #333; /* Dark gray for author text */
+}
+
+/* Footer Styling */
+footer {
+    background: #333; /* Dark gray for footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer ul li a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer ul li a:hover {
+    color: #e70e5d; /* Hot Pink on hover */
+}

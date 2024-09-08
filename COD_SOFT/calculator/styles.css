@@ -1,0 +1,63 @@
+/* Basic reset and body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+background: url('https://marketplace.canva.com/EAFmvkt8tf4/1/0/1600w/canva-pastel-pink-cute-quote-desktop-wallpaper-rh-lBXU6kLQ.jpg') no-repeat center center fixed; background-size: cover;
+}
+
+.container {
+    text-align: center; /* Center text horizontally */
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Keeps the calculator from stretching full width */
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    height: 60px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: deeppink; /* Text color for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    color: #d14e7d; /* Slightly darker shade of deeppink for hover */
+}
+
+.zero {
+    grid-column: span 2;
+}
